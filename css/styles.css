@@ -32,3 +32,13 @@ header {
   height: 5rem;
   width: auto;
 }
+
+.movie-covers img {
+  height: 25rem;
+  width: auto;
+}
+
+.movie-cover-checkout {
+  height: 15rem;
+  width: auto;
+}
