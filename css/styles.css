@@ -1,0 +1,25 @@
+body {
+  font-family: "Khula", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1e2d40;
+  color: white;
+}
+
+h1 {
+  font-family: "Noticia Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Ruda", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer,
+header {
+  background-color: #bbc0c6;
+  color: black;
+}
