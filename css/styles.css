@@ -23,3 +23,12 @@ header {
   background-color: #bbc0c6;
   color: black;
 }
+
+.top-section {
+  background-color: #000000;
+}
+
+.logo {
+  height: 5rem;
+  width: auto;
+}
