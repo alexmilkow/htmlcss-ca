@@ -29,16 +29,19 @@ header {
 }
 
 .logo {
-  width: 10%;
   height: auto;
+  width: 10%;
+  max-width: 10%;
 }
 
 .movie-covers img {
-  width: 20%;
   height: auto;
+  width: 20%;
+  max-width: 20%;
 }
 
 .movie-cover-checkout {
-  width: 10%;
   height: auto;
+  width: 10%;
+  max-width: 10%;
 }
