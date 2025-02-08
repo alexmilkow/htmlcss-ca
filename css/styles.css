@@ -6,6 +6,12 @@ body {
   color: white;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
 h1 {
   font-family: "Noticia Text", serif;
   font-weight: 600;
@@ -24,20 +30,32 @@ header {
   color: black;
 }
 
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+  color: black;
+}
+
 .top-section {
   background-color: #000000;
 }
 
+.current {
+  text-decoration: underline;
+}
+
 .logo {
   height: auto;
-  width: 10%;
-  max-width: 10%;
+  width: 140px;
+  padding: 2px;
 }
 
 .movie-covers img {
-  height: auto;
-  width: 20%;
-  max-width: 20%;
+  height: 572px;
+  width: 367px;
+  max-width: 367px;
+  padding: 20px;
 }
 
 .movie-cover-checkout {
