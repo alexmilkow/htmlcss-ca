@@ -50,8 +50,7 @@ header {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-top: auto;
+  padding: 5px;
 }
 
 nav {
@@ -88,11 +87,20 @@ hr {
 }
 /*End header*/
 
-.movie-covers img {
-  height: 572px;
-  width: 367px;
-  max-width: 367px;
-  padding: 10px 20px 20px 0px;
+/*Footer*/
+.squareeyes {
+  display: flex;
+  align-items: center;
+}
+
+.squareeyes img,
+p {
+  padding: 20px 50px;
+}
+
+.squareeyes img {
+  width: auto;
+  height: 22px;
 }
 
 .social {
@@ -101,23 +109,15 @@ hr {
 }
 
 .social img {
-  margin-left: 40px;
+  padding: 20px 50px;
 }
+/*End footer*/
 
-.copyright {
-  display: flex;
-  align-items: center;
-}
-
-.copyright p,
-img {
-  margin-right: 40px;
-}
-
-.copyright img {
-  height: 20px;
-  width: auto;
-  vertical-align: middle;
+.movie-covers img {
+  height: 572px;
+  width: 367px;
+  max-width: 367px;
+  padding: 10px 20px 20px 0px;
 }
 
 /*Home page*/
