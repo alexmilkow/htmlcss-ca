@@ -66,6 +66,10 @@ nav a {
   color: black;
 }
 
+hr {
+  margin: 40px 0px;
+}
+
 /*Header*/
 .current {
   text-decoration: underline;
@@ -216,9 +220,10 @@ label {
 .checkout-payment {
   background-color: #bbc0c6;
   width: 500px;
-  text-align: center;
   margin: 20px 50px 20px 0px;
   border-radius: 15px;
+  padding-left: 20px;
+  color: black;
 }
 
 .checkout h3 {
@@ -228,5 +233,82 @@ label {
 .checkout img {
   width: 100%;
   max-width: 200px;
+}
+
+.movie-info {
+  display: flex;
+}
+
+.movie-details p {
+  margin: 1px;
+}
+
+.price {
+  display: flex;
+  margin-top: 70px;
+}
+
+.price img {
+  width: auto;
+  height: 22px;
+  padding-left: 250px;
+  margin: 0;
+}
+
+.price img:hover {
+  cursor: pointer;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 0.5px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 0px 20px;
+}
+
+.discount a {
+  text-decoration: none;
+  color: #a49898;
+}
+
+.discount a:hover {
+  cursor: pointer;
+}
+
+.order-summary {
+  border: solid 0.5px;
+  border-radius: 15px;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.order-summary p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-summary-header {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+
+.order-summary-line {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.order-summary span {
+  text-align: right;
+  display: inline-block;
+  width: 100%;
 }
 /*End checkout page*/
