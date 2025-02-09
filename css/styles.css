@@ -69,6 +69,25 @@ hr {
   margin: 40px 0px;
 }
 
+.movie-covers img {
+  height: 572px;
+  width: 367px;
+  max-width: 367px;
+  padding: 10px 20px 20px 0px;
+}
+
+.back-button {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
 /*Header*/
 .current {
   text-decoration: underline;
@@ -120,13 +139,6 @@ hr {
 }
 
 /*End footer*/
-
-.movie-covers img {
-  height: 572px;
-  width: 367px;
-  max-width: 367px;
-  padding: 10px 20px 20px 0px;
-}
 
 /*Home page*/
 .top-section {
@@ -222,15 +234,14 @@ label {
   margin: 0px 20px 0px 0px;
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .checkout-payment {
   background-color: #bbc0c6;
   width: 500px;
-  margin: 20px 50px 20px 0px;
   border-radius: 15px;
-  padding-left: 20px;
+  padding: 20px;
   color: black;
 }
 
@@ -247,12 +258,15 @@ label {
   display: flex;
 }
 
-.movie-details p {
-  margin: 1px;
+.movie-details p,
+.movie-details h4 {
+  margin: 20px;
 }
 
 .price {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 70px;
 }
 
@@ -289,7 +303,7 @@ label {
 .order-summary {
   border: solid 0.5px;
   border-radius: 15px;
-  margin: 20px 0px;
+  margin-top: 20px;
   padding: 0px 20px;
   text-align: left;
 }
