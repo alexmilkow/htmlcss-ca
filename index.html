@@ -42,11 +42,42 @@
         <p>- all in one place</p>
         <a href="allmovies.html">Browse movies</a>
       </section>
-
-      <section class="movie-covers">
-        <img src="images/cover-one.png" alt="Hobbs & Shaw movie cover" />
-        <img src="images/cover-seven.png" alt="Batman movie cover" />
-        <img src="images/cover-two.png" alt="Godzilla movie cover" />
+      <section>
+        <div>
+          <input type="radio" id="action" name="catgory" checked />
+          <label for="action">Action</label>
+          <input type="radio" id="comedy" name="catgory" />
+          <label for="comedy">Comedy</label>
+          <input type="radio" id="horror" name="catgory" />
+          <label for="horror">Horror</label>
+          <label for="fantasy">Fantasy</label>
+          <div class="content action movie-covers">
+            <img src="images/cover-one.png" alt="Hobbs & Shaw movie cover" />
+            <a href="products/batman.html"
+              ><img src="images/cover-seven.png" alt="Batman movie cover"
+            /></a>
+            <img src="images/cover-two.png" alt="Godzilla movie cover" />
+          </div>
+          <div class="content comedy movie-covers">
+            <img
+              src="images/cover-three.png"
+              alt="Once upon a time in Hollywood movie cover"
+            />
+            <img src="images/cover-eight.png" alt="Toy story 4 movie cover" />
+            <img
+              src="images/cover-six.png"
+              alt="Addams family halloween movie cover"
+            />
+          </div>
+          <div class="content horror movie-covers">
+            <img src="images/cover-five.png" alt="Sweetheart movie cover" />
+            <img src="images/cover-four.png" alt="Scream movie cover" />
+          </div>
+          <div class="content fantasy movie-covers">
+            <img src="" />
+            <img src="" />
+          </div>
+        </div>
       </section>
       <section class="movie-covers">
         <h2>Popular now</h2>
@@ -55,23 +86,31 @@
           src="images/cover-three.png"
           alt="Once upon a time in Hollywood movie cover"
         />
-        <img src="images/cover-seven.png" alt="Batman movie cover" />
+        <a href="products/batman.html"
+          ><img src="images/cover-seven.png" alt="Batman movie cover"
+        /></a>
       </section>
-      <section>
+      <section class="sale-section">
         <h2>On sale</h2>
-        <img src="#" alt="Lord of the rings battle soldiers poster" />
         <p>30% off on all fantasy movies!</p>
         <a href="#">Shop now</a>
       </section>
     </main>
     <footer>
-      <img src="#" alt="SquareEyes logo with glasses" />
-      <p>&copy 2025 SquareEyes</p>
-      <p>Terms and conditions</p>
-      <p>Privacy</p>
-      <img src="#" alt="Facebook logo" />
-      <img src="#" alt="Instagram logo" />
-      <img src="#" alt="Twitter logo" />
+      <div class="copyright">
+        <img
+          src="../images/logo-small.png"
+          alt="SquareEyes logo with glasses"
+        />
+        <p>&copy 2025 SquareEyes</p>
+        <p>Terms and conditions</p>
+        <p>Privacy</p>
+      </div>
+      <div class="social">
+        <img src="../images/facebook.png" alt="Facebook logo" />
+        <img src="../images/instgram.png" alt="Instagram logo" />
+        <img src="../images/twitter.png" alt="Twitter logo" />
+      </div>
     </footer>
   </body>
 </html>

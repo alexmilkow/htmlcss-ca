@@ -1,9 +1,18 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   font-family: "Khula", serif;
   font-weight: 400;
   font-style: normal;
   background-color: #1e2d40;
   color: white;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -12,16 +21,24 @@ header {
   padding: 10px 30px;
 }
 
+main {
+  flex-grow: 1;
+}
+
 h1 {
   font-family: "Noticia Text", serif;
   font-weight: 600;
   font-style: normal;
+  padding-left: 20px;
+  margin-top: 0px;
+  text-align: center;
 }
 
 h2 {
   font-family: "Ruda", serif;
   font-weight: 400;
   font-style: normal;
+  padding-left: 20px;
 }
 
 footer,
@@ -30,15 +47,18 @@ header {
   color: black;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: auto;
+}
+
 nav a {
   text-decoration: none;
   display: inline-block;
   padding: 20px 40px;
   color: black;
-}
-
-.top-section {
-  background-color: #000000;
 }
 
 .current {
@@ -55,11 +75,116 @@ nav a {
   height: 572px;
   width: 367px;
   max-width: 367px;
-  padding: 20px;
+  padding: 10px 20px 20px 20px;
 }
 
-.movie-cover-checkout {
-  height: auto;
-  width: 10%;
-  max-width: 10%;
+.social {
+  display: flex;
+  align-items: center;
 }
+
+.social img {
+  margin-left: 40px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright p,
+img {
+  margin-right: 40px;
+}
+
+.copyright img {
+  height: 20px;
+  width: auto;
+  vertical-align: middle;
+}
+
+/*Home page*/
+.top-section {
+  background-color: #000000;
+  background-image: url("../images/avatar-hero.png");
+  height: 500px;
+  width: 100%;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.sale-section {
+  background-image: url("../images/sale-poster.png");
+  height: 500px;
+  width: 100%;
+  background-size: contain;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+/*End home page*/
+
+/*Checkout page*/
+.movie-cover-checkout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.movie-cover-checkout img {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 20px;
+}
+
+.movie-cover-checkout p {
+  margin-top: 0px;
+}
+
+.movie-cover-checkout-textcontent {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-cover-checkout-textcontent p:first-child {
+  margin-top: 50px;
+}
+/*End checkout page*/
+
+/*Category labels on home page*/
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  color: #ada76e;
+}
+
+.content {
+  display: none;
+}
+
+#action:checked ~ .content.action {
+  display: block;
+}
+
+#comedy:checked ~ .content.comedy {
+  display: block;
+}
+
+#horror:checked ~ .content.horror {
+  display: block;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  font-size: 18px;
+  padding: 40px 20px 10px 20px;
+}
+/*End category labels on home page*/
