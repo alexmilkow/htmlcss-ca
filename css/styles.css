@@ -250,10 +250,32 @@ label {
 .movie-cover-checkout-textcontent {
   display: flex;
   flex-direction: column;
+  width: 500px;
+  margin-left: 50px;
 }
 
 .movie-cover-checkout-textcontent p:first-child {
   margin-top: 50px;
+}
+
+.movie-cover-checkout-buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+}
+
+.movie-cover-checkout-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+  width: 130px;
+  height: 30px;
+  text-decoration: none;
+  color: wheat;
+  border: solid;
 }
 /*End video page*/
 
