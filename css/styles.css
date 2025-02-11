@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 30px;
+  position: relative;
 }
 
 main {
@@ -56,6 +57,7 @@ footer {
 nav {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 nav a {
@@ -63,6 +65,30 @@ nav a {
   display: inline-block;
   padding: 20px 40px;
   color: black;
+}
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  nav {
+    display: inline-block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+  }
 }
 
 hr {
