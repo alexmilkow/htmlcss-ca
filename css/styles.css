@@ -275,6 +275,11 @@ label {
   color: black;
 }
 
+.checkout-payment-details {
+  display: flex;
+  flex-direction: column;
+}
+
 .checkout h3 {
   color: #bf7665;
 }
