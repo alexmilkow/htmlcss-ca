@@ -369,3 +369,44 @@ label {
   width: 100%;
 }
 /*End checkout page*/
+
+/*Contact us-page*/
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 250px;
+}
+
+.contact-intro h1 {
+  text-align: left;
+  margin-top: 80px;
+}
+
+.contact-us {
+  background-color: #405173;
+  border-radius: 15px;
+  margin: 100px 20px 100px 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.contact-us h3 {
+  color: #bf7665;
+}
+
+.contact-us-details-section {
+  background-color: #bbc0c6;
+  width: 500px;
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+}
+
+.contact-us-details {
+  display: flex;
+  flex-direction: column;
+}
+/*End contact us-page*/
