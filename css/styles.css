@@ -184,7 +184,6 @@ hr {
   background-color: #000000;
   background-image: url("../images/avatar-hero.png");
   height: 400px;
-  width: calc(100% + 20px);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -224,13 +223,17 @@ hr {
 .sale-section {
   background-image: url("../images/sale-poster.png");
   height: 500px;
-  width: 100%;
-  background-size: contain;
-  background-position: left center;
+  width: 99%;
+  background-size: cover;
+  background-position: center 20%;
   background-repeat: no-repeat;
-  padding-right: 20px;
   margin-bottom: 40px;
 }
+
+.sale-section-content {
+  margin-left: 100px;
+}
+
 /*End home page*/
 
 /*Category labels on home page*/
