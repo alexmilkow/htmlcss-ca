@@ -222,18 +222,53 @@ hr {
 
 .sale-section {
   background-image: url("../images/sale-poster.png");
-  height: 500px;
+  height: 400px;
   width: 99%;
   background-size: cover;
-  background-position: center 20%;
+  background-position: center 15%;
   background-repeat: no-repeat;
+  padding: 0;
   margin-bottom: 40px;
+  position: relative;
+}
+
+.sale-section-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 400px;
+  width: 99.7%;
+  background-size: cover;
+  background-position: center 15%;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .sale-section-content {
-  margin-left: 100px;
+  text-align: right;
+  padding: 20px 50px 0 0;
 }
 
+.sale-section-content h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.sale-section-content p {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.sale-section-content a {
+  text-decoration: none;
+  background-color: #ada76e;
+  padding: 10px 50px;
+  color: black;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+}
 /*End home page*/
 
 /*Category labels on home page*/
