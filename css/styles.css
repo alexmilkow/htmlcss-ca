@@ -174,13 +174,41 @@ hr {
 .top-section {
   background-color: #000000;
   background-image: url("../images/avatar-hero.png");
-  height: 500px;
+  height: 400px;
   width: calc(100% + 20px);
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
   margin-left: -20px;
   padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.top-section-content {
+  margin-left: 100px;
+}
+
+.top-section h1 {
+  text-align: left;
+  font-size: 50px;
+}
+
+.top-section p {
+  font-size: 20px;
+  width: 480px;
+}
+
+.top-section a {
+  text-decoration: none;
+  background-color: #ada76e;
+  padding: 15px 60px;
+  color: black;
+  border-radius: 15px;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
 .sale-section {
