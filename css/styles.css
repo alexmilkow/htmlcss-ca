@@ -330,15 +330,26 @@ label {
   margin-left: 50px;
 }
 
-.movie-cover-checkout-textcontent p:first-child {
-  margin-top: 50px;
+.movie-cover-checkout-textcontent div {
+  display: flex;
+  width: 100%;
+  gap: 10px;
 }
 
-.movie-cover-checkout-buttons {
-  display: flex;
-  justify-content: center;
+.movie-cover-checkout-textcontent a {
+  text-decoration: none;
+  flex: 1;
   text-align: center;
-  gap: 70px;
+  background-color: #ada76e;
+  padding: 10px 50px;
+  color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.movie-cover-checkout-textcontent p:first-child {
+  margin-top: 50px;
 }
 
 .movie-cover-checkout-buttons a {
