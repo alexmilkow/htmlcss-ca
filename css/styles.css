@@ -231,28 +231,28 @@ p {
 }
 
 .sale-section-content {
-  text-align: right;
-  padding: 20px 50px 0 0;
-}
-
-.sale-section-content h2 {
-  font-size: 50px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  margin: 40px 5px 0 0;
 }
 
 .sale-section-content p {
-  font-size: 25px;
-  margin-bottom: 30px;
+  font-size: 20px;
+  width: auto;
+  max-width: 200px;
+  text-align: right;
+  align-self: flex-end;
+  margin-bottom: 0;
 }
 
 .sale-section-content a {
   text-decoration: none;
   background-color: #ada76e;
-  padding: 10px 50px;
+  padding: 5px 25px;
   color: black;
   border-radius: 15px;
-  display: inline-block;
-  margin-top: 20px;
   font-size: 20px;
 }
 /*End home page*/
@@ -523,6 +523,15 @@ label {
   .top-section p {
     font-size: 20px;
   }
+
+  .sale-section-content p {
+    font-size: 30px;
+    width: auto;
+    max-width: 300px;
+  }
+  .sale-section-content a {
+    padding: 15px 40px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -555,6 +564,15 @@ label {
 
   .top-section p {
     font-size: 20px;
+  }
+
+  .sale-section-content p {
+    font-size: 35px;
+    width: auto;
+    max-width: 400px;
+  }
+  .sale-section-content a {
+    padding: 15px 45px;
   }
 }
 /*End general media queries*/
