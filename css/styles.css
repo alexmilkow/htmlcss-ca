@@ -18,8 +18,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 10px 5px 10px 40px;
   position: relative;
+  align-items: center;
 }
 
 main {
@@ -78,21 +79,6 @@ nav,
 
 #menu-checkbox:checked ~ nav {
   display: block;
-}
-
-@media (min-width: 600px) {
-  nav {
-    display: inline-block;
-    position: static;
-  }
-
-  .hamburger-icon {
-    display: none;
-  }
-
-  nav a {
-    display: inline-block;
-  }
 }
 
 hr {
@@ -519,3 +505,26 @@ label {
   flex-direction: column;
 }
 /*End contact us-page*/
+
+/*General media queries*/
+@media (min-width: 900px) {
+  nav {
+    display: inline-block;
+    position: static;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  nav a {
+    display: inline-block;
+    flex-wrap: nowrap;
+  }
+}
+/*End general media queries*/
+
+/*Media queries desktop*/
+@media (min-width: 600px) {
+}
+/*End media queries desktop*/
