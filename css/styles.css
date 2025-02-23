@@ -180,19 +180,19 @@ hr {
   justify-content: flex-start;
 }
 
-.top-section-content {
-  margin-left: 100px;
-}
-
 .top-section h1 {
   text-align: left;
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 0;
 }
 
+.top-section-content h1,
+p {
+  width: 200px;
+}
+
 .top-section p {
-  font-size: 20px;
-  width: 480px;
+  font-size: 17px;
 }
 
 .top-section a {
@@ -507,6 +507,24 @@ label {
 /*End contact us-page*/
 
 /*General media queries*/
+
+@media (min-width: 600px) {
+  .top-section h1 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .top-section-content h1,
+  p {
+    width: 370px;
+  }
+
+  .top-section p {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 900px) {
   nav {
     display: inline-block;
@@ -522,9 +540,21 @@ label {
     flex-wrap: nowrap;
   }
 }
-/*End general media queries*/
 
-/*Media queries desktop*/
-@media (min-width: 600px) {
+@media (min-width: 1050px) {
+  .top-section h1 {
+    text-align: left;
+    font-size: 50px;
+    margin-top: 0;
+  }
+
+  .top-section-content h1,
+  p {
+    width: 500px;
+  }
+
+  .top-section p {
+    font-size: 20px;
+  }
 }
-/*End media queries desktop*/
+/*End general media queries*/
