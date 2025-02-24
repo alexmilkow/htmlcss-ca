@@ -538,9 +538,6 @@ a {
     width: auto;
     max-width: 300px;
   }
-  .sale-section-content a {
-    padding: 15px 40px;
-  }
 }
 
 @media (min-width: 900px) {
@@ -590,6 +587,10 @@ a {
     width: auto;
     margin-left: 30px;
   }
+
+  .sale-button {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -612,9 +613,6 @@ a {
     font-size: 35px;
     width: auto;
     max-width: 400px;
-  }
-  .sale-section-content a {
-    padding: 15px 45px;
   }
 }
 /*End general media queries*/
