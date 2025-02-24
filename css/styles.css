@@ -160,7 +160,6 @@ p {
   color: black;
   border-radius: 15px;
   display: inline-block;
-
   font-size: 20px;
 }
 
@@ -279,6 +278,43 @@ label {
   border: solid;
 }
 /*End video page*/
+
+/*About us-page*/
+.aboutus-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.aboutus-content p {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.aboutus-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutus-buttons a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #ada76e;
+  padding: 15px 35px;
+  color: black;
+  border-radius: 15px;
+  margin: 30px 0 20px 0;
+  font-size: 20px;
+}
+
+.ref-buttons {
+  text-align: center;
+  margin-top: 20px !important;
+}
+
+/*End about us-page*/
 
 /*Checkout page*/
 .checkout {
@@ -575,6 +611,12 @@ a {
   .movie-grid {
     grid-template-columns: auto auto auto 1fr;
     justify-content: left;
+  }
+
+  .aboutus-content p {
+    width: 800px;
+    max-width: 800px;
+    margin: auto;
   }
 }
 /*End general media queries*/
