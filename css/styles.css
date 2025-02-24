@@ -18,7 +18,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 20px;
   position: relative;
   align-items: center;
 }
@@ -79,7 +79,7 @@ footer {
 .social {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px;
+
   justify-content: space-between;
   max-height: 300px;
 }
@@ -88,7 +88,6 @@ footer {
 a {
   text-decoration: none;
   color: black;
-  padding: 5px;
 }
 
 .squareeyes img {
@@ -122,6 +121,7 @@ nav a {
   text-decoration: none;
   display: block;
   color: black;
+  padding: 5px 20px;
 }
 
 nav,
