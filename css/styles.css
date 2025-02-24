@@ -548,7 +548,8 @@ label {
   nav a {
     display: inline-block;
     flex-wrap: nowrap;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 70px;
+    padding: 0;
   }
 
   .squareeyes,
