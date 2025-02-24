@@ -18,7 +18,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px 5px 10px 40px;
+  padding: 10px 40px 10px 40px;
   position: relative;
   align-items: center;
 }
@@ -121,7 +121,6 @@ nav {
 nav a {
   text-decoration: none;
   display: block;
-  padding: 20px 40px;
   color: black;
 }
 
@@ -543,11 +542,13 @@ label {
 
   .hamburger-icon {
     display: none;
+    font-size: 50px;
   }
 
   nav a {
     display: inline-block;
     flex-wrap: nowrap;
+    margin: 0 0 0 50px;
   }
 
   .squareeyes,
