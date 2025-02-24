@@ -63,7 +63,6 @@ header {
 .logo {
   height: auto;
   width: 140px;
-  padding: 2px;
 }
 
 .cart {
@@ -85,7 +84,7 @@ footer {
 .social {
   display: flex;
   flex-direction: column;
-
+  padding: 10px 20px;
   justify-content: space-between;
   max-height: 300px;
 }
@@ -94,6 +93,7 @@ footer {
 a {
   text-decoration: none;
   color: black;
+  padding: 5px;
 }
 
 .squareeyes img {
@@ -127,7 +127,7 @@ nav a {
   text-decoration: none;
   display: block;
   color: black;
-  padding: 5px 20px;
+  padding: 5px 35px;
 }
 
 nav,
@@ -557,6 +557,10 @@ label {
     padding: 0;
   }
 
+  .movie-covers__clickable {
+    margin-right: 0;
+  }
+
   .squareeyes,
   .social {
     display: flex;
@@ -570,10 +574,6 @@ label {
     text-decoration: none;
     color: black;
     margin-right: 30px;
-  }
-
-  .movie-covers__clickable {
-    margin-right: 0;
   }
 
   .squareeyes img {
