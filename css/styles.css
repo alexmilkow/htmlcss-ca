@@ -50,6 +50,12 @@ header {
 }
 
 /*Header*/
+
+.hamburger-icon {
+  padding: 0;
+  font-size: 35px;
+}
+
 .current {
   text-decoration: underline;
 }
