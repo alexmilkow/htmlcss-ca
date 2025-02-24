@@ -49,11 +49,64 @@ header {
   color: black;
 }
 
+/*Header*/
+.current {
+  text-decoration: underline;
+}
+
+.logo {
+  height: auto;
+  width: 140px;
+  padding: 2px;
+}
+
+.cart {
+  height: auto;
+  width: 25px;
+  margin: 0px;
+}
+/*End header*/
+
+/*Footer*/
+
 footer {
   display: flex;
   justify-content: space-between;
+  max-height: 300px;
+}
+
+.squareeyes,
+.social {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  justify-content: space-between;
+  max-height: 300px;
+}
+
+.squareeyes img,
+a {
+  text-decoration: none;
+  color: black;
   padding: 5px;
 }
+
+.squareeyes img {
+  max-width: 50px;
+  height: auto;
+}
+
+.social img {
+  height: 40px;
+  width: auto;
+}
+
+.social img:hover,
+.squareeyes a:hover {
+  cursor: pointer;
+}
+
+/*End Footer*/
 
 nav {
   display: flex;
@@ -112,58 +165,6 @@ hr {
 .back-button:hover {
   cursor: pointer;
 }
-
-/*Header*/
-.current {
-  text-decoration: underline;
-}
-
-.logo {
-  height: auto;
-  width: 140px;
-  padding: 2px;
-}
-
-.cart {
-  height: auto;
-  width: 25px;
-  margin: 0px;
-}
-/*End header*/
-
-/*Footer*/
-.squareeyes {
-  display: flex;
-  align-items: center;
-}
-
-.squareeyes img,
-.squareeyes a {
-  padding: 20px 50px;
-  color: black;
-  text-decoration: none;
-}
-
-.squareeyes img {
-  width: auto;
-  height: 22px;
-}
-
-.social img:hover,
-.squareeyes a:hover {
-  cursor: pointer;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-}
-
-.social img {
-  padding: 20px 50px;
-}
-
-/*End footer*/
 
 /*Home page*/
 .top-section {
@@ -547,6 +548,37 @@ label {
   nav a {
     display: inline-block;
     flex-wrap: nowrap;
+  }
+
+  .squareeyes,
+  .social {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    align-items: center;
+  }
+
+  .squareeyes img,
+  a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+
+  .squareeyes img {
+    max-width: 50px;
+    height: auto;
+  }
+
+  .social img {
+    height: 45px;
+    width: auto;
+    margin-left: 30px;
+  }
+
+  .social img:hover,
+  .squareeyes a:hover {
+    cursor: pointer;
   }
 }
 
