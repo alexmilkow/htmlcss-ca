@@ -145,7 +145,7 @@ hr {
 }
 
 .top-section-content h1,
-p {
+.top-section-content p {
   width: 200px;
 }
 
@@ -444,14 +444,15 @@ label {
 }
 
 .contact-intro h1 {
-  flex-grow: 1;
   text-align: center;
+  width: 100%;
   margin-top: 20px;
 }
 
-.ref-aboutus {
+.contact-intro p {
+  flex-grow: 1;
   text-align: center;
-  width: 80%;
+  margin-top: 20px;
 }
 
 .contact-us {
@@ -479,6 +480,10 @@ label {
   line-height: 15px;
 }
 
+.ref-contactus {
+  max-width: 80%;
+}
+
 .contact-us-info {
   padding: 20px 0px 20px 20px;
 }
@@ -493,7 +498,7 @@ label {
 }
 
 .contact-us-details-section input,
-textarea {
+.contact-us-details-section textarea {
   margin: 0 20px;
 }
 
@@ -540,7 +545,7 @@ footer {
 }
 
 .squareeyes img,
-a {
+.squareeyes a {
   text-decoration: none;
   color: black;
   padding: 5px;
@@ -573,7 +578,7 @@ a {
   }
 
   .top-section-content h1,
-  p {
+  .top-section-content p {
     width: 370px;
   }
 
@@ -627,7 +632,7 @@ a {
   }
 
   .squareeyes img,
-  a {
+  .squareeyes a {
     text-decoration: none;
     color: black;
     margin-right: 30px;
@@ -643,6 +648,30 @@ a {
     width: auto;
     margin-left: 30px;
   }
+
+  .contact-us {
+    background-color: #405173;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 1px auto 50px auto;
+  }
+
+  .contact-us-details-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #bbc0c6;
+    width: 400px;
+    border-radius: 0px 10px 10px 0px;
+    color: black;
+  }
+
+  .ref-contactus {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -652,7 +681,7 @@ a {
   }
 
   .top-section-content h1,
-  p {
+  .top-section-content p {
     width: 500px;
   }
 
