@@ -433,41 +433,93 @@ label {
 
 .contact-intro {
   display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 250px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-intro h1 {
-  text-align: left;
-  margin-top: 80px;
+  flex-grow: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ref-aboutus {
+  text-align: center;
+  width: 80%;
 }
 
 .contact-us {
   background-color: #405173;
-  border-radius: 15px;
-  margin: 100px 20px 100px 400px;
+  border-radius: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 20px;
+  max-width: 80%;
+  margin-bottom: 50px;
+}
+
+.contact-us h2 {
+  font-size: 35px;
+  margin: 0;
 }
 
 .contact-us h3 {
   color: #bf7665;
+  font-size: 25px;
+  margin: 0px 0px 20px 0px;
+}
+
+.contact-us p {
+  line-height: 15px;
+}
+
+.contact-us-info {
+  padding: 20px 0px 20px 20px;
 }
 
 .contact-us-details-section {
+  display: flex;
+  flex-direction: column;
   background-color: #bbc0c6;
-  width: 500px;
-  border-radius: 15px;
-  padding: 20px;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
   color: black;
 }
 
-.contact-us-details {
-  display: flex;
-  flex-direction: column;
+.contact-us-details-section input,
+textarea {
+  margin: 0 20px;
 }
+
+.contact-us-details-section #message {
+  height: 100px;
+}
+
+.contact-us-details-section label {
+  padding: 40px 20px 0px 20px;
+}
+
+.contact-us-details-section a {
+  margin: 20px 0px;
+  padding: 0;
+  width: 50%;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  background-color: #ada76e;
+  padding: 10px 50px;
+  color: black;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 20px;
+}
+
 /*End Contact us-page*/
 
 /*Footer*/
