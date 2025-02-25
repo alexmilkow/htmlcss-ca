@@ -488,6 +488,16 @@ label {
   padding: 20px 0px 20px 20px;
 }
 
+.contact-us-info p {
+  margin: 0 20px 0 0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-us-info-distinct {
+  background-color: #bf7665;
+}
+
 .contact-us-details-section {
   display: flex;
   flex-direction: column;
