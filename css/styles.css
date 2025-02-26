@@ -98,10 +98,6 @@ nav,
   display: block;
 }
 
-hr {
-  margin: 40px 0px;
-}
-
 .heading-container {
   display: flex;
   position: relative;
@@ -313,13 +309,15 @@ label {
   border-radius: 15px;
   margin: 0px 20px 40px 0px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+  width: 400px;
 }
 
 .checkout-payment {
   background-color: #bbc0c6;
-  width: 500px;
+  width: 400px;
   border-radius: 15px;
   padding: 20px;
   color: black;
@@ -339,27 +337,29 @@ label {
   max-width: 200px;
 }
 
+hr {
+  margin: 15px 0;
+}
+
 .movie-info {
   display: flex;
 }
 
 .movie-details p,
 .movie-details h4 {
-  margin: 20px;
+  margin: 5px 20px 0 20px;
 }
 
 .price {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .price img {
   width: auto;
   height: 22px;
-  padding-left: 250px;
-  margin: 0;
+  margin: 0 0 4px 100px;
 }
 
 .price img:hover {
@@ -372,7 +372,7 @@ label {
   justify-content: space-between;
   border: solid 0.5px;
   border-radius: 15px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px 20px;
 }
 
@@ -396,17 +396,27 @@ label {
 .order-summary p {
   display: flex;
   justify-content: space-between;
+  font-size: 15px;
+  margin: 0;
 }
 
 .order-summary-header {
-  font-size: 22px;
+  font-size: 18px !important;
   font-weight: 400;
-  margin-bottom: 2px;
+  margin-top: 15px !important;
 }
 
 .order-summary-line {
   width: 100%;
   margin: 5px 0;
+}
+
+.order-sums {
+  margin: 15px 0;
+}
+
+.order-sums p {
+  margin: 3px 0px;
 }
 
 .bold {
