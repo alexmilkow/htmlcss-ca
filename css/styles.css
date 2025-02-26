@@ -686,8 +686,8 @@ footer {
   .movie-cover-checkout {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 1200px;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
   }
 
