@@ -304,6 +304,17 @@ label {
 /*End about us-page*/
 
 /*Checkout page*/
+.checkout-cart h2 {
+  font-size: 35px;
+  margin: 0;
+}
+
+.checkout-cart h3 {
+  font-size: 25px;
+  color: #bf7665;
+  margin: 0px 0px 20px 0px;
+}
+
 .checkout {
   display: flex;
   flex-direction: column;
@@ -359,7 +370,6 @@ label {
   border: 1px solid;
   border-radius: 15px;
   padding: 0 10px;
-  margin-bottom: 20px;
 }
 
 .price {
@@ -386,11 +396,64 @@ hr {
 .checkout-payment {
   background-color: grey;
   display: flex;
+  color: black;
   flex-direction: column;
   background-color: #bbc0c6;
   padding: 20px;
   border-radius: 0 0 10px 10px;
 }
+
+.checkout-payment label {
+  padding: 0;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.checkout-payment h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.checkout-payment-space {
+  margin-top: 18px !important;
+}
+
+.checkout-payment input {
+  margin: 5px 0;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.expiryCVV {
+  display: flex;
+  justify-content: space-between;
+  flex: 2 1;
+  gap: 30px;
+}
+
+.big-expiry {
+  flex: 2;
+}
+
+.small-CVV {
+  flex: 1;
+}
+
+.checkout-payment a {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ada76e;
+  padding: 8px 15px;
+  color: black;
+  border-radius: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*End checkout page*/
 
 /*Contact us-page*/

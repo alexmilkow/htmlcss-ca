@@ -44,9 +44,9 @@
     </header>
     <main>
       <div class="heading-container">
-      <a href="javascript:window.history.back();" class="back-button">< Back</a>
-      <h1>Checkout</h1>
-    </div>
+        <a href="javascript:window.history.back();" class="back-button">< Back</a>
+        <h1>Checkout</h1>
+      </div>
       <section class="checkout">
         <div class="checkout-cart">
           <h2>SquareEyes</h2>
@@ -81,13 +81,15 @@
             <input type="text" id="name" name="name" />
             <label for="email">Email address</label>
             <input type="email" id="email" name="email" />
-            <h4>Payment method</h4>
+            <h4 class="checkout-payment-space">Payment method</h4>
             <label for="cardholder">Name of cardholder</label>
             <input type="text" id="cardholder" name="cardholder" />
             <label for="cardnumber">Card information</label>
             <input type="number" id="cardnumber" name="cardnumber" />
-            <input type="number" id="expiry" name="expiry" />
-            <input type="number" id="CVV" name="CVV" />
+            <div class="expiryCVV">
+              <input type="number" id="expiry" name="expiry" class="big-expiry"/>
+              <input type="number" id="CVV" name="CVV" class="small-CVV"/>
+            </div>
             <a href="checkout-success.html">Complete Payment</a>
         </div>
       </section>
