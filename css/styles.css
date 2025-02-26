@@ -496,6 +496,7 @@ label {
 
 .contact-us-info-distinct {
   background-color: #bf7665;
+  max-width: 400px;
 }
 
 .contact-us-details-section {
@@ -510,6 +511,9 @@ label {
 .contact-us-details-section input,
 .contact-us-details-section textarea {
   margin: 0 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
 }
 
 .contact-us-details-section #message {
@@ -681,6 +685,11 @@ footer {
   .ref-contactus {
     max-width: 100%;
     text-align: center;
+  }
+
+  .contact-us-info-distinct {
+    background-color: #bf7665;
+    width: 300px;
   }
 }
 
