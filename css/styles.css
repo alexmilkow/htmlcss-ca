@@ -223,60 +223,51 @@ label {
 
 .movie-cover-checkout {
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 .movie-cover-checkout img {
-  width: 100%;
-  max-width: 300px;
-  margin: 20px 0px;
-}
-
-.movie-cover-checkout p {
-  margin-top: 0px;
+  width: 300px;
+  height: auto;
 }
 
 .movie-cover-checkout-textcontent {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  margin-left: 50px;
-}
-
-.movie-cover-checkout-textcontent div {
-  display: flex;
-  width: 100%;
-  gap: 10px;
-}
-
-.movie-cover-checkout-textcontent a {
-  text-decoration: none;
-  flex: 1;
-  text-align: center;
-  background-color: #ada76e;
-  padding: 10px 50px;
-  color: black;
-  border-radius: 15px;
+  text-align: left;
+  width: 350px;
   margin-top: 20px;
-  font-size: 20px;
 }
 
-.movie-cover-checkout-textcontent p:first-child {
-  margin-top: 50px;
+.movie-cover-checkout-textcontent :first-child {
+  margin-bottom: 20px;
+}
+
+.movie-cover-checkout-textcontent p {
+  margin: 0px;
+}
+
+.movie-cover-checkout-buttons {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  gap: 20px;
 }
 
 .movie-cover-checkout-buttons a {
+  text-decoration: none;
+  text-align: center;
+  background-color: #ada76e;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 15px;
+  font-size: 20px;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
-  padding: 10px;
-  width: 130px;
-  height: 30px;
-  text-decoration: none;
-  color: wheat;
-  border: solid;
 }
+
 /*End video page*/
 
 /*About us-page*/
@@ -690,6 +681,26 @@ footer {
   .contact-us-info-distinct {
     background-color: #bf7665;
     width: 300px;
+  }
+
+  .movie-cover-checkout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .movie-cover-checkout-textcontent :first-child {
+    margin-bottom: 50px;
+  }
+
+  .container-content {
+    margin: 30px 50px;
+  }
+
+  .movie-cover-checkout-buttons {
+    margin-top: 50px;
   }
 }
 
