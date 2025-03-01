@@ -820,6 +820,10 @@ footer {
     width: 400px;
     border-radius: 0 10px 10px 0px;
   }
+
+  .receipt {
+    width: 800px;
+  }
 }
 
 @media (min-width: 1050px) {
