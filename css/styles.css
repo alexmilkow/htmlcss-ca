@@ -318,8 +318,8 @@ label {
 .checkout {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  margin: 20px;
+  max-width: 600px;
+  margin: 20px 50px 20px 20px;
 }
 
 .checkout-cart {
@@ -415,7 +415,7 @@ hr {
 }
 
 .checkout-payment-space {
-  margin-top: 18px !important;
+  margin-top: 50px !important;
 }
 
 .checkout-payment input {
@@ -432,11 +432,11 @@ hr {
   gap: 30px;
 }
 
-.big-expiry {
+#expiry {
   flex: 2;
 }
 
-.small-CVV {
+#CVV {
   flex: 1;
 }
 
@@ -737,6 +737,24 @@ footer {
 
   .movie-cover-checkout-buttons {
     margin-top: 50px;
+  }
+
+  .checkout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100vw;
+    margin: 20px auto;
+  }
+
+  .checkout-cart {
+    border-radius: 10px 0px 0px 10px;
+    width: 400px;
+  }
+
+  .checkout-payment {
+    width: 400px;
+    border-radius: 0 10px 10px 0px;
   }
 }
 
