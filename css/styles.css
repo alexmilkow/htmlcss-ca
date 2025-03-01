@@ -456,6 +456,66 @@ hr {
 
 /*End checkout page*/
 
+/*Checkout success page*/
+.receipt {
+  background-color: #bbc0c6;
+  width: 400px;
+  margin: 20px auto;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.font-faded {
+  color: #4d4b4b;
+}
+
+.receipt hr {
+  margin: 5px 20px;
+  border-color: black;
+}
+
+.receipt h2 {
+  font-weight: bold;
+}
+
+.receipt-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 30px 20px;
+}
+
+.receipt-blocks-info {
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.checkout-success-button a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #ada76e;
+  padding: 8px 10px;
+  color: black;
+  border-radius: 15px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.pdf i {
+  cursor: pointer;
+}
+
+/*End checkout success page*/
+
 /*Contact us-page*/
 
 .contact-intro {
