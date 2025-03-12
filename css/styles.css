@@ -213,10 +213,6 @@ label {
   justify-content: center;
 }
 
-.movie-covers h2 {
-  text-align: center;
-}
-
 .movie-cover-checkout {
   display: flex;
   flex-direction: column;
@@ -699,10 +695,6 @@ footer {
   .movie-grid {
     grid-template-columns: auto 1fr;
     justify-content: left;
-  }
-
-  .movie-covers h2 {
-    text-align: left;
   }
 }
 
