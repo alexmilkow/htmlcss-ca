@@ -134,29 +134,29 @@ nav,
   justify-content: flex-start;
 }
 
+.top-section-content h1,
+.top-section-content p {
+  width: 120px;
+}
+
 .top-section h1 {
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0;
 }
 
-.top-section-content h1,
-.top-section-content p {
-  width: 200px;
-}
-
 .top-section p {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .top-section a {
   text-decoration: none;
   background-color: #ada76e;
-  padding: 15px 60px;
+  padding: 10px 30px;
   color: black;
   border-radius: 15px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .movie-covers img {
@@ -688,6 +688,11 @@ footer {
   }
 
   .top-section p {
+    font-size: 20px;
+  }
+
+  .top-section a {
+    padding: 15px 60px;
     font-size: 20px;
   }
 
