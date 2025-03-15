@@ -121,6 +121,10 @@ nav,
   cursor: pointer;
 }
 
+.main {
+  padding-left: 0 !important;
+}
+
 /*Home page*/
 .top-section {
   background-color: #000000;
@@ -237,7 +241,7 @@ label {
 }
 
 .movie-cover-checkout-textcontent p {
-  margin: 0px;
+  margin: 0px 0px 0px 20px;
 }
 
 .movie-cover-checkout-buttons {
@@ -540,10 +544,6 @@ hr {
   flex-grow: 1;
   text-align: center;
   margin-top: 20px;
-}
-
-.contactus-main {
-  padding-left: 0 !important;
 }
 
 .contactus-back {
