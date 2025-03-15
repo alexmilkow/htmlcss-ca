@@ -524,7 +524,6 @@ hr {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-
   display: flex;
   position: relative;
   justify-content: center;
@@ -543,6 +542,14 @@ hr {
   margin-top: 20px;
 }
 
+.contactus-main {
+  padding-left: 0 !important;
+}
+
+.contactus-back {
+  padding-left: 20px;
+}
+
 .contact-us {
   background-color: #405173;
   border-radius: 10px;
@@ -550,7 +557,7 @@ hr {
   flex-direction: column;
   justify-content: space-between;
   max-width: 80%;
-  margin-bottom: 50px;
+  margin: 0px auto 50px auto;
 }
 
 .contact-us h2 {
@@ -570,6 +577,8 @@ hr {
 
 .ref-contactus {
   max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .contact-us-info {
@@ -624,7 +633,7 @@ hr {
   color: black;
   border-radius: 15px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*End Contact us-page*/
