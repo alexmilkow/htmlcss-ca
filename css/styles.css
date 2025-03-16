@@ -1,3 +1,5 @@
+@import "imports/variables.css";
+
 html,
 body {
   height: 100%;
@@ -45,7 +47,7 @@ h2 {
 
 footer,
 header {
-  background-color: #bbc0c6;
+  background-color: var(--contrast-background-color);
   color: black;
 }
 
@@ -80,7 +82,7 @@ nav {
   position: absolute;
   right: 0;
   top: 100%;
-  background-color: #bbc0c6;
+  background-color: var(--contrast-background-color);
   z-index: 10;
 }
 
@@ -161,7 +163,7 @@ nav,
 
 .top-section a {
   text-decoration: none;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 10px 30px;
   color: black;
   border-radius: 15px;
@@ -186,7 +188,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-  color: #ada76e;
+  color: var(--avatareye-constrast-color);
 }
 
 .content {
@@ -259,7 +261,7 @@ label {
 .movie-cover-checkout-buttons a {
   text-decoration: none;
   text-align: center;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 10px 20px;
   color: black;
   border-radius: 15px;
@@ -295,7 +297,7 @@ label {
 .aboutus-buttons a {
   text-decoration: none;
   text-align: center;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 15px 35px;
   color: black;
   border-radius: 15px;
@@ -404,7 +406,7 @@ hr {
   display: flex;
   color: black;
   flex-direction: column;
-  background-color: #bbc0c6;
+  background-color: var(--contrast-background-color);
   padding: 20px;
   border-radius: 0 0 10px 10px;
 }
@@ -451,7 +453,7 @@ hr {
   margin-top: 20px;
   text-align: center;
   text-decoration: none;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 8px 15px;
   color: black;
   border-radius: 15px;
@@ -465,7 +467,7 @@ hr {
 
 /*Checkout success page*/
 .receipt {
-  background-color: #bbc0c6;
+  background-color: var(--contrast-background-color);
   width: 300px;
   margin: 20px auto;
   color: black;
@@ -508,7 +510,7 @@ hr {
 .checkout-success-button a {
   text-align: center;
   text-decoration: none;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 8px 10px;
   color: black;
   border-radius: 15px;
@@ -601,7 +603,7 @@ hr {
 .contact-us-details-section {
   display: flex;
   flex-direction: column;
-  background-color: #bbc0c6;
+  background-color: var(--contrast-background-color);
   width: 100%;
   border-radius: 0px 0px 10px 10px;
   color: black;
@@ -630,7 +632,7 @@ hr {
   text-align: center;
   align-self: center;
   text-decoration: none;
-  background-color: #ada76e;
+  background-color: var(--avatareye-constrast-color);
   padding: 10px 50px;
   color: black;
   border-radius: 15px;
@@ -793,7 +795,7 @@ footer {
   .contact-us-details-section {
     display: flex;
     flex-direction: column;
-    background-color: #bbc0c6;
+    background-color: var(--contrast-background-color);
     width: 400px;
     border-radius: 0px 10px 10px 0px;
     color: black;
