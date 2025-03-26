@@ -598,7 +598,7 @@ hr {
 
 .contact-us-info-distinct {
   background-color: #bf7665;
-  max-width: 400px;
+  max-width: 260px;
 }
 
 .contact-us-details-section {
@@ -639,6 +639,10 @@ hr {
   border-radius: 15px;
   display: inline-block;
   font-size: 18px;
+}
+
+.address-map {
+  margin-top: 30px;
 }
 
 /*End Contact us-page*/
@@ -810,6 +814,10 @@ footer {
   .contact-us-info-distinct {
     background-color: #bf7665;
     width: 300px;
+  }
+
+  .contact-us-details-section #message {
+    height: 195px;
   }
 
   .movie-cover-checkout {
