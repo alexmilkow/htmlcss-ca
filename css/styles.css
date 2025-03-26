@@ -600,10 +600,6 @@ hr {
 .contact-us-info-distinct {
   background-color: #bf7665;
   max-width: 260px;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  text-decoration: none;
-  color: white;
 }
 
 .contact-us-details-section {
