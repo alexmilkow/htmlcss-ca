@@ -58,7 +58,8 @@ header {
 }
 
 .current {
-  text-decoration: underline;
+  text-decoration: underline 1px;
+  font-weight: bold;
 }
 
 .logo {
