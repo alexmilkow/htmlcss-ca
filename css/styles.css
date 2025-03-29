@@ -589,6 +589,8 @@ hr {
 
 .contact-us-info {
   padding: 20px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-us-info p {
@@ -599,7 +601,7 @@ hr {
 
 .contact-us-info-distinct {
   background-color: #bf7665;
-  max-width: 260px;
+  max-width: 340px;
 }
 
 .contact-us-details-section {
@@ -643,7 +645,10 @@ hr {
 }
 
 .address-map {
-  margin-top: 30px;
+  border: 0;
+  padding: 20px 20px 20px 0px;
+  max-width: 400px;
+  box-sizing: border-box;
 }
 
 /*End Contact us-page*/
