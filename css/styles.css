@@ -107,26 +107,8 @@ nav,
   align-items: center;
 }
 
-.back-button {
-  position: absolute;
-  left: 0;
-  display: inline-block;
-  text-decoration: none;
-  margin-top: 20px;
-  color: white;
-  font-size: 25px;
-}
-
 .cta:hover {
   background-color: #c6c18b;
-}
-
-.back-button:hover {
-  cursor: pointer;
-}
-
-.back-corr {
-  padding-left: 20px;
 }
 
 .main {
