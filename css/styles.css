@@ -114,6 +114,13 @@ nav,
 
 .cta {
   font-family: "Khula", serif;
+  text-decoration: none;
+  background-color: var(--avatareye-constrast-color);
+  padding: 10px 30px;
+  color: black;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 18px;
 }
 
 .cta:hover {
@@ -152,16 +159,6 @@ nav,
 }
 
 .top-section p {
-  font-size: 15px;
-}
-
-.top-section a {
-  text-decoration: none;
-  background-color: var(--avatareye-constrast-color);
-  padding: 10px 30px;
-  color: black;
-  border-radius: 15px;
-  display: inline-block;
   font-size: 15px;
 }
 
@@ -253,13 +250,6 @@ label {
 }
 
 .movie-cover-checkout-buttons a {
-  text-decoration: none;
-  text-align: center;
-  background-color: var(--avatareye-constrast-color);
-  padding: 10px 20px;
-  color: black;
-  border-radius: 15px;
-  font-size: 20px;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -286,16 +276,6 @@ label {
   justify-content: center;
   gap: 20px;
   margin: 20px 20px 20px 0px;
-}
-
-.aboutus-buttons a {
-  text-decoration: none;
-  text-align: center;
-  background-color: var(--avatareye-constrast-color);
-  padding: 15px 35px;
-  color: black;
-  border-radius: 15px;
-  font-size: 15px;
 }
 
 .ref-buttons {
@@ -422,7 +402,7 @@ hr {
 
 .checkout-payment input {
   margin: 5px 0;
-  height: 20px;
+  height: 22px;
   border: none;
   border-radius: 5px;
 }
@@ -446,11 +426,6 @@ hr {
 .checkout-payment-button {
   margin-top: 20px;
   border: none;
-  background-color: var(--avatareye-constrast-color);
-  padding: 8px 15px;
-  color: black;
-  border-radius: 15px;
-  font-size: 18px;
 }
 
 /*End checkout page*/
@@ -498,17 +473,11 @@ hr {
 }
 
 .checkout-success-button a {
-  text-align: center;
-  text-decoration: none;
-  background-color: var(--avatareye-constrast-color);
-  padding: 8px 10px;
-  color: black;
-  border-radius: 15px;
-  font-size: 18px;
+  padding: 12px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 400px;
+  max-width: 300px;
   width: 80%;
   margin: 20px auto;
 }
@@ -604,7 +573,7 @@ hr {
 .contact-us-details-section input,
 .contact-us-details-section textarea {
   margin: 0 20px;
-  height: 20px;
+  height: 22px;
   border: none;
   border-radius: 5px;
 }
@@ -614,20 +583,15 @@ hr {
 }
 
 .contact-us-details-section label {
-  padding: 40px 20px 0px 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 .contact-us-details-section-button {
   margin: 20px 0px;
   border: none;
-  padding: 0;
   width: 80%;
+  max-width: 400px;
   align-self: center;
-  background-color: var(--avatareye-constrast-color);
-  padding: 10px 50px;
-  color: black;
-  border-radius: 15px;
-  font-size: 18px;
 }
 
 .address-map {
@@ -710,7 +674,7 @@ footer {
 
   .aboutus-buttons a {
     padding: 15px 50px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .ref-buttons {
@@ -719,6 +683,10 @@ footer {
 
   .checkout {
     max-width: 550px;
+  }
+
+  .checkout-success-button a {
+    max-width: 400px;
   }
 
   .receipt {
