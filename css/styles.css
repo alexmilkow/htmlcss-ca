@@ -58,7 +58,7 @@ header {
 }
 
 .current {
-  text-decoration: underline 1px;
+  border-bottom: 1px solid;
   font-weight: bold;
 }
 
