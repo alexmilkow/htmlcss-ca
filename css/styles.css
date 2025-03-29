@@ -51,6 +51,11 @@ header {
   color: black;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 .hamburger-icon {
   padding: 0;
   font-size: 35px;
@@ -433,18 +438,14 @@ hr {
   width: 10px;
 }
 
-.checkout-payment a {
+.checkout-payment-button {
   margin-top: 20px;
-  text-align: center;
-  text-decoration: none;
+  border: none;
   background-color: var(--avatareye-constrast-color);
   padding: 8px 15px;
   color: black;
   border-radius: 15px;
   font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*End checkout page*/
@@ -611,18 +612,16 @@ hr {
   padding: 40px 20px 0px 20px;
 }
 
-.contact-us-details-section a {
+.contact-us-details-section-button {
   margin: 20px 0px;
+  border: none;
   padding: 0;
-  width: 50%;
-  text-align: center;
+  width: 80%;
   align-self: center;
-  text-decoration: none;
   background-color: var(--avatareye-constrast-color);
   padding: 10px 50px;
   color: black;
   border-radius: 15px;
-  display: inline-block;
   font-size: 18px;
 }
 

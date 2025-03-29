@@ -76,51 +76,73 @@
           </div>
         </div>
         <div class="checkout-payment">
-          <h4>Contact information</h4>
-          <label for="name">First and last name </label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            title="Enter your first and last name"
-          />
-          <label for="email">Email address</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            title="Enter your email address"
-          />
-          <h4 class="checkout-payment-space">Payment method</h4>
-          <label for="cardholder">Name of cardholder</label>
-          <input
-            type="text"
-            id="cardholder"
-            name="cardholder"
-            title="Enter the full name of the cardholder"
-          />
-          <label for="cardnumber">Card information</label>
-          <input
-            type="number"
-            id="cardnumber"
-            name="cardnumber"
-            title="Enter your card number"
-          />
-          <div class="expiryCVV">
+          <form action="checkout-success.html" method="get">
+            <h4>Contact information</h4>
+            <label for="name">First and last name </label>
             <input
-              type="number"
-              id="expiry"
-              name="expiry"
-              title="Enter the expiry date"
+              type="text"
+              required
+              id="name"
+              name="name"
+              title="Enter your first and last name"
+              placeholder="Your full name"
             />
+            <label for="email">Email address</label>
             <input
-              type="number"
-              id="CVV"
-              name="CVV"
-              title="Enter the CVV code"
+              type="email"
+              required
+              id="email"
+              name="email"
+              title="Enter your email address"
+              placeholder="Your email address"
             />
-          </div>
-          <a href="checkout-success.html" class="cta">Complete Payment</a>
+            <h4 class="checkout-payment-space">Payment method</h4>
+            <label for="cardholder">Name of cardholder</label>
+            <input
+              type="text"
+              required
+              id="cardholder"
+              name="cardholder"
+              title="Enter the full name of the cardholder"
+              placeholder="Cardholders full name"
+            />
+            <label for="cardnumber">Card information</label>
+            <input
+              type="text"
+              required
+              id="cardnumber"
+              name="cardnumber"
+              title="Enter your card number"
+              placeholder="Card number"
+              minlength="16"
+              maxlength="16"
+            />
+            <div class="expiryCVV">
+              <input
+                type="text"
+                required
+                id="expiry"
+                name="expiry"
+                title="Enter the expiry date"
+                placeholder="Expiry date"
+                minlength="4"
+                maxlength="4"
+              />
+              <input
+                type="text"
+                required
+                id="CVV"
+                name="CVV"
+                title="Enter the CVV code"
+                placeholder="CVV code"
+                minlength="3"
+                maxlength="3"
+              />
+            </div>
+            <button type="submit" class="cta checkout-payment-button">
+              Complete Payment
+            </button>
+          </form>
         </div>
       </section>
     </main>
