@@ -186,14 +186,8 @@ input[type="radio"]:checked + label {
   display: none;
 }
 
-#action:checked ~ .content.action {
-  display: block;
-}
-
-#comedy:checked ~ .content.comedy {
-  display: block;
-}
-
+#action:checked ~ .content.action,
+#comedy:checked ~ .content.comedy,
 #horror:checked ~ .content.horror {
   display: block;
 }
