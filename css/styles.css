@@ -48,7 +48,7 @@ h2 {
 footer,
 header {
   background-color: var(--contrast-background-color);
-  color: black;
+  color: var(--text-contrast-color);
 }
 
 form {
@@ -92,7 +92,7 @@ nav {
 nav a {
   text-decoration: none;
   display: block;
-  color: black;
+  color: var(--text-contrast-color);
   padding: 5px 35px;
 }
 
@@ -117,7 +117,7 @@ nav,
   text-decoration: none;
   background-color: var(--avatareye-constrast-color);
   padding: 10px 30px;
-  color: black;
+  color: var(--text-contrast-color);
   border-radius: 15px;
   display: inline-block;
   font-size: 18px;
@@ -292,7 +292,6 @@ label {
 
 .checkout-cart h3 {
   font-size: 25px;
-  color: #bf7665;
   margin: 0px 0px 20px 0px;
 }
 
@@ -337,14 +336,18 @@ label {
   border: 1px solid;
   border-radius: 15px;
   justify-content: space-between;
+  align-items: center;
   padding: 0 10px;
   margin-bottom: 10px;
 }
 
 .discount a {
+  background-color: #efa367;
+  color: var(--text-contrast-color);
+  border-radius: 10px;
   margin: 16px 0;
   text-decoration: none;
-  color: rgb(140, 134, 134);
+  padding: 4px 10px;
 }
 
 .order-summary {
@@ -378,7 +381,7 @@ hr {
 .checkout-payment {
   background-color: grey;
   display: flex;
-  color: black;
+  color: var(--text-contrast-color);
   flex-direction: column;
   background-color: var(--contrast-background-color);
   padding: 20px;
@@ -435,7 +438,7 @@ hr {
   background-color: var(--contrast-background-color);
   width: 300px;
   margin: 20px auto;
-  color: black;
+  color: var(--text-contrast-color);
   padding: 20px;
   text-align: center;
   border-radius: 15px;
@@ -447,7 +450,7 @@ hr {
 
 .receipt hr {
   margin: 5px 20px;
-  border-color: black;
+  color: var(--text-contrast-color);
 }
 
 .receipt h2 {
@@ -562,7 +565,7 @@ hr {
   background-color: var(--contrast-background-color);
   width: 100%;
   border-radius: 0px 0px 10px 10px;
-  color: black;
+  color: var(--text-contrast-color);
 }
 
 .contact-us-details-section input,
@@ -619,7 +622,7 @@ footer {
 .squareeyes img,
 .squareeyes a {
   text-decoration: none;
-  color: black;
+  color: var(--text-contrast-color);
   padding: 5px;
 }
 
@@ -728,7 +731,7 @@ footer {
   .squareeyes img,
   .squareeyes a {
     text-decoration: none;
-    color: black;
+    color: var(--text-contrast-color);
     margin-right: 30px;
   }
 
@@ -759,7 +762,7 @@ footer {
     background-color: var(--contrast-background-color);
     width: 400px;
     border-radius: 0px 10px 10px 0px;
-    color: black;
+    color: var(--text-contrast-color);
   }
 
   .ref-contactus {
