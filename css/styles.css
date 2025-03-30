@@ -529,9 +529,9 @@ hr {
 }
 
 .contact-us h3 {
-  color: #bf7665;
+  color: white;
   font-size: 25px;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 .contact-us p {
@@ -552,13 +552,8 @@ hr {
 
 .contact-us-info p {
   margin: 0 20px 0 0;
-  padding: 20px;
+  padding: 10px 0px;
   border-radius: 10px;
-}
-
-.contact-us-info-distinct {
-  background-color: #bf7665;
-  max-width: 340px;
 }
 
 .contact-us-details-section {
@@ -596,8 +591,9 @@ hr {
 
 .address-map {
   border: 0;
-  padding: 20px 20px 20px 0px;
+  padding: 40px 20px 20px 0px;
   max-width: 400px;
+  height: 250px;
   box-sizing: border-box;
 }
 
@@ -769,11 +765,6 @@ footer {
   .ref-contactus {
     max-width: 100%;
     text-align: center;
-  }
-
-  .contact-us-info-distinct {
-    background-color: #bf7665;
-    width: 300px;
   }
 
   .contact-us-details-section #message {
