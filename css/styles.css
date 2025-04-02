@@ -121,11 +121,38 @@ nav,
   border-radius: 15px;
   display: inline-block;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .cta:hover {
   background-color: #c6c18b;
   cursor: pointer;
+}
+
+.add-to-cart {
+  position: relative;
+  text-align: center;
+  width: 120px;
+}
+
+#add-to-cart-checkbox:checked + .add-to-cart {
+  background-color: #efa367;
+}
+
+.add-to-cart::before {
+  content: "Add to cart";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: var(--text-contrast-color);
+}
+
+#add-to-cart-checkbox:checked + .add-to-cart::before {
+  content: "Added to cart";
+  width: 120px;
 }
 
 .main {
