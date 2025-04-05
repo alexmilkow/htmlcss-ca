@@ -190,7 +190,8 @@ nav,
 }
 
 .movie-covers img {
-  height: 400px;
+  height: 500px;
+  width: auto;
   padding: 10px 20px 20px 0px;
 }
 
@@ -231,11 +232,6 @@ label {
 /*End category labels on home page*/
 
 /*Video page*/
-.movie-grid {
-  display: grid;
-  grid-template-columns: 1 fr;
-  justify-content: center;
-}
 
 .movie-cover-checkout {
   display: flex;
@@ -687,11 +683,6 @@ footer {
     font-size: 20px;
   }
 
-  .movie-grid {
-    grid-template-columns: auto 1fr;
-    justify-content: left;
-  }
-
   .aboutus-buttons a {
     padding: 15px 50px;
     font-size: 18px;
@@ -730,11 +721,6 @@ footer {
     flex-wrap: nowrap;
     margin: 0 0 0 70px;
     padding: 0;
-  }
-
-  .movie-grid {
-    grid-template-columns: auto auto 1fr;
-    justify-content: left;
   }
 
   .movie-covers__clickable {
@@ -849,11 +835,6 @@ footer {
 
   .top-section p {
     font-size: 20px;
-  }
-
-  .movie-grid {
-    grid-template-columns: auto auto auto 1fr;
-    justify-content: left;
   }
 
   .aboutus-content p {
