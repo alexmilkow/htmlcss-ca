@@ -276,6 +276,14 @@ label {
 /*End video page*/
 
 /*About us-page*/
+
+.aboutus-image {
+  background: url(../images/moviecover.jpg) center center no-repeat;
+  height: 280px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 .aboutus-content {
   display: flex;
   flex-direction: column;
@@ -292,11 +300,7 @@ label {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 20px 20px 20px 0px;
-}
-
-.ref-buttons {
-  margin-top: 20px !important;
+  margin: 20px 0px;
 }
 
 /*End about us-page*/
@@ -688,10 +692,6 @@ footer {
     font-size: 18px;
   }
 
-  .ref-buttons {
-    text-align: center;
-  }
-
   .checkout {
     max-width: 550px;
   }
@@ -820,6 +820,31 @@ footer {
   .receipt {
     width: 800px;
   }
+
+  .aboutus {
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutus-buttons {
+    justify-content: flex-start;
+    margin: 20px 0px 20px 20px;
+  }
+
+  .aboutus-image {
+    background-image: url(../images/moviecover2.jpg);
+    height: 500px;
+    align-items: end;
+    margin-left: 20px;
+  }
+
+  .aboutus-content {
+    margin-right: 20px;
+  }
+
+  .aboutus-content p {
+    margin: 0px 0px 0px 10px;
+  }
 }
 
 @media (min-width: 1050px) {
@@ -835,12 +860,6 @@ footer {
 
   .top-section p {
     font-size: 20px;
-  }
-
-  .aboutus-content p {
-    width: 800px;
-    max-width: 800px;
-    margin: auto;
   }
 }
 /*End general media queries*/
