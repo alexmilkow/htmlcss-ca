@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  font-family: "Khula", serif;
+  font-family: var(--body-font-family);
   font-weight: 400;
   font-style: normal;
   background-color: #1e2d40;
@@ -113,7 +113,7 @@ nav,
 }
 
 .cta {
-  font-family: "Khula", serif;
+  font-family: var(--body-font-family);
   text-decoration: none;
   background-color: var(--avatareye-constrast-color);
   padding: 10px 30px;
@@ -429,6 +429,9 @@ hr {
   height: 30px;
   border: none;
   border-radius: 5px;
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  padding-left: 5px;
 }
 
 .expiryCVV {
@@ -595,6 +598,9 @@ hr {
   height: 30px;
   border: none;
   border-radius: 5px;
+  font-family: var(--body-font-family);
+  font-size: 15px;
+  padding-left: 5px;
 }
 
 .contact-us-details-section #message {
