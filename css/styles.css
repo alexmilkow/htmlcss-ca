@@ -405,6 +405,10 @@ label {
   padding: 4px 10px;
 }
 
+.discount:hover a {
+  background-color: #e4b38c;
+}
+
 .order-summary {
   border: 1px solid;
   border-radius: 15px;
