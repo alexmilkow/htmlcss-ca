@@ -838,7 +838,7 @@ hr {
 
 @media (min-width: 1100px) {
   .aboutus-image {
-    background-position: 100%;
+    background-position: 90%;
   }
 }
 /*End media queries*/
