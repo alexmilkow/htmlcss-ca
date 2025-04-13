@@ -10,6 +10,7 @@ Some decisions made along the way
 - I also decided to remove the back button I originally made. I found the button unnecessary because you can click the back button on the device’s browser on both desktop and mobile. It also looked a bit messy, especially on mobile, because it got a bit squished together with the header of the pages.
 - I needed to remove the original contrast color (brown/orange) on the contact us-page because of breach with WCAG. It looks a little plainer, but now in accordance to WCAG.
 - The Wave reports I made for my pages looks good, but because of some “hacky” solutions with HTML and CSS, caused by us not using Javascript at this point, there are some flags in regard to this. For example, I get a flag concerning the label for the “add to cart” button on the Batman page. Because this is a HTML/CSS solution, I needed to leave it like it is. Also, I have chosen to ignore the “redundant link” alert, since it points to that both “Home” and clicking the logo refers to the same page (I want the user to be able to use both options).
+- The “Fantasy” category is not clickable as of now, because I do not have any fantasy movies on the page at the moment, but I have chosen to keep it as a placeholder because the design looked neater when it is visible on the page.
 
 Inspiration & Sources
 
